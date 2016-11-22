@@ -1,6 +1,8 @@
-$imagesprincipal: url("http://lorempicsum.com/futurama/1570/900/3") no-repeat;
+$imagesprincipal: url("http://lorempicsum.com/futurama/1570/900/3") ;
 $zeromarge: 0;
 $principalcolor: white;
+$enlevelien: none;
+$couleurbtn: #ffb0a6;
 
 
 body {
@@ -9,23 +11,60 @@ body {
 }
 
 .images {
-   
-    height: 550px;
-    width: 100%;
-    margin: 0;
+
+	height: 550px;
+	width: 100%;
+	margin: 0;
 	background:$imagesprincipal;
 
 }
 
 .coter {
-  
-    display: flex;
-    margin-left: 75%;
+
+
+	display: flex;
+	margin-left: 70%;
 
 	span {
 		color:$principalcolor;
 		margin:$zeromarge;
-		padding:10px;
+		padding:20px;
 		right:0;	}
+		a {
 
+			text-decoration: $enlevelien;
+			color:$principalcolor;
+		}
+
+	}
+.milieu {
+
+
+	position : absolute;
+	margin-top: 3%;
+	margin-left: 19%;
+
+	h1 {
+
+		color: $principalcolor;
+
+	}
+
+	h4 {
+
+
+     color: $principalcolor;
+
+
+	}
+
+	button {
+
+       border:2px solid $couleurbtn;
+       border-radius: 20px;
+       padding: 10px;
+      color: $principalcolor;
+      background: transparent;
+
+	}
 }
