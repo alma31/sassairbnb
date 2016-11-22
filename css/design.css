@@ -1,0 +1,19 @@
+body {
+  margin: 0; }
+
+.images {
+  height: 550px;
+  width: 100%;
+  margin: 0;
+  background: url("http://lorempicsum.com/futurama/1570/900/3") no-repeat; }
+
+.coter {
+  display: flex;
+  margin-left: 75%; }
+  .coter span {
+    color: white;
+    margin: 0;
+    padding: 10px;
+    right: 0; }
+
+/*# sourceMappingURL=design.css.map */
