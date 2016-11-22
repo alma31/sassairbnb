@@ -2,10 +2,11 @@ body {
   margin: 0; }
 
 .images {
-  height: 550px;
+  height: 500px;
   width: 100%;
   margin: 0;
-  background: url("http://lorempicsum.com/futurama/1570/900/3"); }
+  background: url("http://lorempicsum.com/futurama/1570/900/3");
+  margin-bottom: 3%; }
 
 .coter {
   display: flex;
@@ -33,5 +34,15 @@ body {
     padding: 10px;
     color: white;
     background: transparent; }
+
+#search {
+  position: absolute;
+  border: 2px solid #cccccc;
+  border-radius: 5px;
+  margin-left: 20%;
+  padding: 30px;
+  width: 800px; }
+  #search .recherche {
+    display: inline-block; }
 
 /*# sourceMappingURL=design.css.map */
