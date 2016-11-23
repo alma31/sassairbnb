@@ -4,6 +4,7 @@ $principalcolor: white;
 $enlevelien: none;
 $couleurbtn: #ffb0a6;
 $couleurcontour: #cccccc;
+$couleurexp: #c4c4c4;
 
 
 body {
@@ -39,52 +40,149 @@ body {
 		}
 
 	}
-.milieu {
+	.milieu {
 
 
-	position : absolute;
-	margin-top: 3%;
-	margin-left: 19%;
+		position : absolute;
+		margin-top: 3%;
+		margin-left: 19%;
 
-	h1 {
+		h1 {
 
-		color: $principalcolor;
+			color: $principalcolor;
 
+		}
+
+		h4 {
+
+
+			color: $principalcolor;
+
+
+		}
+
+		button {
+
+			border:2px solid $couleurbtn;
+			border-radius: 20px;
+			padding: 10px;
+			color: $principalcolor;
+			background: transparent;
+
+		}
+
+		a {
+			text-decoration: $enlevelien;
+			color:$principalcolor;
+		}
 	}
 
-	h4 {
+	.search {
+		border:2px solid $couleurcontour;
+		border-radius:5px;
+		margin-left:20%;
+		padding:20px;
+		width:700px;
+
+		.recherchequand {
 
 
-     color: $principalcolor;
+			display: inline-block;
+			border:2px solid $couleurcontour;
 
 
+
+
+		}
+
+		.quand {
+
+	// outline:10px solid $couleurcontour
+
+
+}
+
+
+
+}
+
+.expe {
+
+	margin-top: 2em;
+	margin-left: 230px;
+	color:#c4c4c4;
+}
+
+.imgexpe {
+
+	margin-left: 17%;
+
+	.fleche {
+
+		margin-bottom: 15%;
+		margin-left: -100px;
 	}
 
-	button {
+}
 
-       border:2px solid $couleurbtn;
-       border-radius: 20px;
-       padding: 10px;
-      color: $principalcolor;
-      background: transparent;
+.img1 {
 
+	display: inline-block;
+	margin:10px;
+
+	p {
+		color: $couleurexp;
 	}
 }
 
-#search {
-    position:absolute;
-	border:2px solid $couleurcontour;
-	border-radius:5px;
-	margin-left:20%;
-	padding:30px;
-	width:800px;
+.img2 {
 
-	.recherche {
+	display: inline-block;
+	margin:10px;
 
-    display: inline-block;
 
+	p {
+		color:$couleurexp;
+	}
+}
+
+.img3 {
+
+	display: inline-block;
+	margin:10px;
+
+
+	p {
+		color:$couleurexp;
+	}
+}
+
+.img4 {
+
+	display: inline-block;
+	margin:10px;
+
+	p {
+		color:$couleurexp;
+	}
+}
+.image2 {
+
+	img {
+
+		margin-left: 85%;
+		margin-bottom:-19%;
+		
 	}
 
-
-
 }
+
+.logement {
+
+	color:$couleurexp;
+	margin-left:230px;
+}
+
+
+
+

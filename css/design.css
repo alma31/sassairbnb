@@ -34,15 +34,61 @@ body {
     padding: 10px;
     color: white;
     background: transparent; }
+  .milieu a {
+    text-decoration: none;
+    color: white; }
 
-#search {
-  position: absolute;
+.search {
   border: 2px solid #cccccc;
   border-radius: 5px;
   margin-left: 20%;
-  padding: 30px;
-  width: 800px; }
-  #search .recherche {
-    display: inline-block; }
+  padding: 20px;
+  width: 700px; }
+  .search .recherchequand {
+    display: inline-block;
+    border: 2px solid #cccccc; }
+
+.expe {
+  margin-top: 2em;
+  margin-left: 230px;
+  color: #c4c4c4; }
+
+.imgexpe {
+  margin-left: 17%; }
+  .imgexpe .fleche {
+    margin-bottom: 15%;
+    margin-left: -100px; }
+
+.img1 {
+  display: inline-block;
+  margin: 10px; }
+  .img1 p {
+    color: #c4c4c4; }
+
+.img2 {
+  display: inline-block;
+  margin: 10px; }
+  .img2 p {
+    color: #c4c4c4; }
+
+.img3 {
+  display: inline-block;
+  margin: 10px; }
+  .img3 p {
+    color: #c4c4c4; }
+
+.img4 {
+  display: inline-block;
+  margin: 10px; }
+  .img4 p {
+    color: #c4c4c4; }
+
+.image2 img {
+  margin-left: 85%;
+  margin-bottom: -19%; }
+
+.logement {
+  color: #c4c4c4;
+  margin-left: 230px; }
 
 /*# sourceMappingURL=design.css.map */
