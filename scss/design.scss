@@ -6,6 +6,8 @@ $couleurbtn: #ffb0a6;
 $couleurcontour: #cccccc;
 $couleurexp: #c4c4c4;
 $couleurligne:#dce0e0;
+$couleureuro:#00848b;
+$couleurfooter:#767676;
 
 
 body {
@@ -115,7 +117,7 @@ body {
 }
 
 .imgexpe {
-    margin-bottom: 5%;
+	margin-bottom: 5%;
 	margin-left: 17%;
 
 	.fleche {
@@ -181,7 +183,7 @@ body {
 .logement {
 
 	color:$couleurexp;
-	margin-bottom: 100px;
+	margin-bottom: 120px;
 	margin-left:230px;
 
 }
@@ -229,12 +231,102 @@ body {
 .ligne1 {
 
 
-	margin:3em;
-	border:1px solid $couleurligne;
+	border:3em;
+	border-bottom:1px solid $couleurligne;
 
 
 }
 
+.argent {
+	padding:5em;
+	margin-left: 8%;
+	display:flex;
+	flex-direction:column;
+	position:absolute;
 
+	select {
+
+		background:transparent;
+		width: 164px;
+		height: 42px;
+		color: $couleureuro;
+		margin:5px;
+	}
+
+}
+
+.airbnb {
+
+	text-decoration:none;
+	list-style-type:none;
+	position:absolute;
+	margin-left:27%;
+	margin-top:4%;
+
+	a {
+
+		text-decoration: $enlevelien;
+		color: $couleurfooter;
+	}
+}
+
+.strong1 {
+
+	font-weight: bold;
+	margin:8px;
+}
+
+.decouvrire {
+
+	text-decoration:none;
+	list-style-type:none;
+	position:absolute;
+	margin-left:48%;
+	margin-top:4%;
+
+	a {
+
+		text-decoration: $enlevelien;
+		color: $couleurfooter;
+	}
+
+}
+
+.strong2 {
+
+	font-weight: bold;
+	margin:8px;
+
+}
+
+.heberge {
+
+	text-decoration:none;
+	list-style-type:none;
+	position:absolute;
+	margin-left:73%;
+	margin-top:4%;
+
+	a {
+
+		text-decoration: $enlevelien;
+		color: $couleurfooter;
+	}
+}
+
+.strong3 {
+
+	font-weight: bold;
+	margin:8px;
+}
+
+.ligne2 {
+
+
+	border:3em;
+	border-bottom:1px solid $couleurligne;
+
+
+}
 
 
