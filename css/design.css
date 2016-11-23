@@ -54,6 +54,7 @@ body {
   color: #c4c4c4; }
 
 .imgexpe {
+  margin-bottom: 5%;
   margin-left: 17%; }
   .imgexpe .fleche {
     margin-bottom: 15%;
@@ -89,6 +90,37 @@ body {
 
 .logement {
   color: #c4c4c4;
+  margin-bottom: 100px;
   margin-left: 230px; }
+
+.img5 {
+  display: inline-block;
+  margin: 10px; }
+  .img5 p {
+    color: #c4c4c4; }
+
+.img6 {
+  display: inline-block;
+  margin: 10px; }
+  .img6 p {
+    color: #c4c4c4; }
+
+.img7 {
+  display: inline-block;
+  margin: 10px; }
+  .img7 p {
+    color: #c4c4c4; }
+
+.deuxieme {
+  margin-left: 13%; }
+
+.image3 {
+  margin-left: 86%;
+  position: float;
+  margin-bottom: -10%; }
+
+.ligne1 {
+  margin: 3em;
+  border: 1px solid #dce0e0; }
 
 /*# sourceMappingURL=design.css.map */

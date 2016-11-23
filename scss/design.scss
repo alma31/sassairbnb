@@ -5,6 +5,7 @@ $enlevelien: none;
 $couleurbtn: #ffb0a6;
 $couleurcontour: #cccccc;
 $couleurexp: #c4c4c4;
+$couleurligne:#dce0e0;
 
 
 body {
@@ -114,7 +115,7 @@ body {
 }
 
 .imgexpe {
-
+    margin-bottom: 5%;
 	margin-left: 17%;
 
 	.fleche {
@@ -180,7 +181,58 @@ body {
 .logement {
 
 	color:$couleurexp;
+	margin-bottom: 100px;
 	margin-left:230px;
+
+}
+
+.img5 {
+
+	display: inline-block;
+	margin:10px;
+
+	p {
+		color: $couleurexp;
+	}	
+}
+
+.img6 {
+
+	display: inline-block;
+	margin:10px;
+
+	p {
+		color: $couleurexp;
+	}
+}
+
+.img7 {
+	display: inline-block;
+	margin:10px;
+
+	p {
+		color: $couleurexp;
+	}
+}
+
+.deuxieme {
+	margin-left: 13%;
+
+}
+
+.image3 {
+
+	margin-left:86%;
+	position:float;
+	margin-bottom: -10%;
+}
+.ligne1 {
+
+
+	margin:3em;
+	border:1px solid $couleurligne;
+
+
 }
 
 
