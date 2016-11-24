@@ -55,7 +55,7 @@ body {
 
 .imgexpe {
   margin-bottom: 5%;
-  margin-left: 17%; }
+  margin-left: 20%; }
   .imgexpe .fleche {
     margin-bottom: 15%;
     margin-left: -10%; }
@@ -112,7 +112,7 @@ body {
     color: #c4c4c4; }
 
 .deuxieme {
-  margin-left: 13%; }
+  margin-left: 14%; }
 
 .image3 {
   margin-left: 86%;
@@ -148,7 +148,7 @@ body {
 
 .strong1 {
   font-weight: bold;
-  margin: 8px; }
+  margin: 0.500em; }
 
 .decouvrire {
   text-decoration: none;
