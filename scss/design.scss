@@ -17,7 +17,7 @@ body {
 
 .images {
 
-	height: 500px;
+	height: 70vh;
 	width: 100%;
 	margin: 0;
 	background:$imagesprincipal;
@@ -34,7 +34,7 @@ body {
 	span {
 		color:$principalcolor;
 		margin:$zeromarge;
-		padding:20px;
+		padding:1.250em;
 		right:0;	}
 		a {
 
@@ -66,9 +66,9 @@ body {
 
 		button {
 
-			border:2px solid $couleurbtn;
-			border-radius: 20px;
-			padding: 10px;
+			border:0.125em solid $couleurbtn;
+			border-radius: 1.250em;
+			padding: 0.625em;
 			color: $principalcolor;
 			background: transparent;
 
@@ -81,17 +81,17 @@ body {
 	}
 
 	.search {
-		border:2px solid $couleurcontour;
-		border-radius:5px;
+		border:0.125em solid $couleurcontour;
+		border-radius:0.313em;
 		margin-left:20%;
-		padding:20px;
-		width:700px;
+		padding:1.250em;
+		width:43.750em;
 
 		.recherchequand {
 
 
 			display: inline-block;
-			border:2px solid $couleurcontour;
+			border:0.125em solid $couleurcontour;
 
 
 
@@ -112,7 +112,7 @@ body {
 .expe {
 
 	margin-top: 2em;
-	margin-left: 230px;
+	margin-left: 14.375em;
 	color:#c4c4c4;
 }
 
@@ -123,7 +123,7 @@ body {
 	.fleche {
 
 		margin-bottom: 15%;
-		margin-left: -100px;
+		margin-left: -10%;
 	}
 
 }
@@ -131,7 +131,7 @@ body {
 .img1 {
 
 	display: inline-block;
-	margin:10px;
+	margin:0.625em;
 
 	p {
 		color: $couleurexp;
@@ -141,7 +141,7 @@ body {
 .img2 {
 
 	display: inline-block;
-	margin:10px;
+	margin:0.625em;
 
 
 	p {
@@ -152,7 +152,7 @@ body {
 .img3 {
 
 	display: inline-block;
-	margin:10px;
+	margin:0.625em;
 
 
 	p {
@@ -163,7 +163,7 @@ body {
 .img4 {
 
 	display: inline-block;
-	margin:10px;
+	margin:0.625em;
 
 	p {
 		color:$couleurexp;
@@ -183,15 +183,15 @@ body {
 .logement {
 
 	color:$couleurexp;
-	margin-bottom: 120px;
-	margin-left:230px;
+	margin-bottom:7.500em;
+	margin-left:14.375em;
 
 }
 
 .img5 {
 
 	display: inline-block;
-	margin:10px;
+	margin:0.625em;
 
 	p {
 		color: $couleurexp;
@@ -201,7 +201,7 @@ body {
 .img6 {
 
 	display: inline-block;
-	margin:10px;
+	margin:0.625em;
 
 	p {
 		color: $couleurexp;
@@ -210,7 +210,7 @@ body {
 
 .img7 {
 	display: inline-block;
-	margin:10px;
+	margin:0.625em;
 
 	p {
 		color: $couleurexp;
@@ -232,7 +232,7 @@ body {
 
 
 	border:3em;
-	border-bottom:1px solid $couleurligne;
+	border-bottom:0.063em solid $couleurligne;
 
 
 }
@@ -247,10 +247,10 @@ body {
 	select {
 
 		background:transparent;
-		width: 164px;
-		height: 42px;
+		width: 10.250em;
+		height: 2.625em;
 		color: $couleureuro;
-		margin:5px;
+		margin:0.313em;
 	}
 
 }
@@ -295,7 +295,7 @@ body {
 .strong2 {
 
 	font-weight: bold;
-	margin:8px;
+	margin:0.500em;
 
 }
 
@@ -317,7 +317,7 @@ body {
 .strong3 {
 
 	font-weight: bold;
-	margin:8px;
+	margin:0.500em;
 }
 
 

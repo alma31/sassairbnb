@@ -2,7 +2,7 @@ body {
   margin: 0; }
 
 .images {
-  height: 500px;
+  height: 70vh;
   width: 100%;
   margin: 0;
   background: url("http://lorempicsum.com/futurama/1570/900/3");
@@ -14,7 +14,7 @@ body {
   .coter span {
     color: white;
     margin: 0;
-    padding: 20px;
+    padding: 1.250em;
     right: 0; }
   .coter a {
     text-decoration: none;
@@ -29,9 +29,9 @@ body {
   .milieu h4 {
     color: white; }
   .milieu button {
-    border: 2px solid #ffb0a6;
-    border-radius: 20px;
-    padding: 10px;
+    border: 0.125em solid #ffb0a6;
+    border-radius: 1.250em;
+    padding: 0.625em;
     color: white;
     background: transparent; }
   .milieu a {
@@ -39,18 +39,18 @@ body {
     color: white; }
 
 .search {
-  border: 2px solid #cccccc;
-  border-radius: 5px;
+  border: 0.125em solid #cccccc;
+  border-radius: 0.313em;
   margin-left: 20%;
-  padding: 20px;
-  width: 700px; }
+  padding: 1.250em;
+  width: 43.750em; }
   .search .recherchequand {
     display: inline-block;
-    border: 2px solid #cccccc; }
+    border: 0.125em solid #cccccc; }
 
 .expe {
   margin-top: 2em;
-  margin-left: 230px;
+  margin-left: 14.375em;
   color: #c4c4c4; }
 
 .imgexpe {
@@ -58,29 +58,29 @@ body {
   margin-left: 17%; }
   .imgexpe .fleche {
     margin-bottom: 15%;
-    margin-left: -100px; }
+    margin-left: -10%; }
 
 .img1 {
   display: inline-block;
-  margin: 10px; }
+  margin: 0.625em; }
   .img1 p {
     color: #c4c4c4; }
 
 .img2 {
   display: inline-block;
-  margin: 10px; }
+  margin: 0.625em; }
   .img2 p {
     color: #c4c4c4; }
 
 .img3 {
   display: inline-block;
-  margin: 10px; }
+  margin: 0.625em; }
   .img3 p {
     color: #c4c4c4; }
 
 .img4 {
   display: inline-block;
-  margin: 10px; }
+  margin: 0.625em; }
   .img4 p {
     color: #c4c4c4; }
 
@@ -90,24 +90,24 @@ body {
 
 .logement {
   color: #c4c4c4;
-  margin-bottom: 120px;
-  margin-left: 230px; }
+  margin-bottom: 7.500em;
+  margin-left: 14.375em; }
 
 .img5 {
   display: inline-block;
-  margin: 10px; }
+  margin: 0.625em; }
   .img5 p {
     color: #c4c4c4; }
 
 .img6 {
   display: inline-block;
-  margin: 10px; }
+  margin: 0.625em; }
   .img6 p {
     color: #c4c4c4; }
 
 .img7 {
   display: inline-block;
-  margin: 10px; }
+  margin: 0.625em; }
   .img7 p {
     color: #c4c4c4; }
 
@@ -121,7 +121,7 @@ body {
 
 .ligne1 {
   border: 3em;
-  border-bottom: 1px solid #dce0e0; }
+  border-bottom: 0.063em solid #dce0e0; }
 
 .argent {
   padding: 5em;
@@ -131,10 +131,10 @@ body {
   position: absolute; }
   .argent select {
     background: transparent;
-    width: 164px;
-    height: 42px;
+    width: 10.250em;
+    height: 2.625em;
     color: #00848b;
-    margin: 5px; }
+    margin: 0.313em; }
 
 .airbnb {
   text-decoration: none;
@@ -162,7 +162,7 @@ body {
 
 .strong2 {
   font-weight: bold;
-  margin: 8px; }
+  margin: 0.500em; }
 
 .heberge {
   text-decoration: none;
@@ -176,6 +176,6 @@ body {
 
 .strong3 {
   font-weight: bold;
-  margin: 8px; }
+  margin: 0.500em; }
 
 /*# sourceMappingURL=design.css.map */
