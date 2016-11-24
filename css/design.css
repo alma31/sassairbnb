@@ -1,5 +1,7 @@
 body {
   margin: 0; }
+  body a:hover {
+    color: #00848b; }
 
 .images {
   height: 70vh;
@@ -43,10 +45,14 @@ body {
   border-radius: 0.313em;
   margin-left: 20%;
   padding: 1.250em;
-  width: 43.750em; }
-  .search .recherchequand {
-    display: inline-block;
-    border: 0.125em solid #cccccc; }
+  width: 43.750em;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .search .recherche {
+    border: 1.125em solid #cccccc;
+    padding: 6vh;
+    padding: 4vw; }
 
 .expe {
   margin-top: 2em;
@@ -177,5 +183,8 @@ body {
 .strong3 {
   font-weight: bold;
   margin: 0.500em; }
+
+.fix {
+  position: fixed; }
 
 /*# sourceMappingURL=design.css.map */

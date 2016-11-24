@@ -12,6 +12,11 @@ $couleurfooter:#767676;
 
 body {
 
+	a:hover { 
+    color: $couleureuro;
+}
+
+
 	margin: $zeromarge;
 }
 
@@ -86,12 +91,18 @@ body {
 		margin-left:20%;
 		padding:1.250em;
 		width:43.750em;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 
-		.recherchequand {
+
+		.recherche {
 
 
-			display: inline-block;
-			border:0.125em solid $couleurcontour;
+			border:1.125em solid $couleurcontour;
+			padding:6vh;
+			padding:4vw;		
+		
 
 
 
@@ -320,4 +331,8 @@ body {
 	margin:0.500em;
 }
 
+    .fix {
+
+    	position:fixed;
+    }
 
